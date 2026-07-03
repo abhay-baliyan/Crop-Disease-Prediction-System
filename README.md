@@ -1,67 +1,78 @@
 # 🌿 Crop Disease Prediction System
 
-An AI-powered desktop application for multi-crop disease prediction using **VGG16 Transfer Learning**, **PyTorch**, and **Grad-CAM Explainability** with an intuitive **PyQt5 graphical interface**.
+<p align="center">
+
+AI-powered desktop application for **multi-crop disease prediction** using **VGG16 Transfer Learning**, **PyTorch**, and **Grad-CAM Explainability**.
+
+</p>
 
 ---
 
-## 📖 Overview
+## 📌 Overview
 
-The Crop Disease Prediction System is a desktop application designed to assist in the early detection of plant diseases using deep learning. Users can upload a leaf image, select the corresponding crop, and receive disease predictions with confidence scores. The application also provides **Grad-CAM visualization**, allowing users to understand which regions of the leaf influenced the model's prediction.
+Crop Disease Prediction System is a desktop application that predicts diseases from crop leaf images using deep learning.
+
+The application allows users to upload a leaf image, select the crop, and instantly receive disease predictions along with confidence scores. It also provides **Grad-CAM visualization** to highlight the regions of the image that influenced the prediction.
 
 ---
 
 ## ✨ Features
 
-- Multi-crop disease prediction
-- User-friendly PyQt5 desktop interface
-- Upload leaf images for prediction
-- Top-2 disease predictions with confidence scores
-- Grad-CAM explainability
-- Automatic CPU/GPU detection
-- Splash screen and responsive UI
-- Seven independently trained VGG16 models
+- 🌱 Multi-crop disease prediction
+- 🖥️ PyQt5 desktop interface
+- 📷 Upload leaf image
+- 🎯 Top-2 prediction results
+- 📈 Confidence score
+- 🔥 Grad-CAM explainability
+- ⚡ Automatic CPU/GPU detection
+- 🎨 Modern graphical interface
+- 🚀 Splash screen
 
 ---
 
-## 🌱 Supported Crops
+# 🌾 Supported Crops
 
-- Corn
-- Cotton
-- Potato
-- Rice
-- Sugarcane
-- Tea
-- Wheat
+| Crop | Status |
+|-------|--------|
+| 🌽 Corn | ✅ |
+| 🌿 Cotton | ✅ |
+| 🥔 Potato | ✅ |
+| 🌾 Rice | ✅ |
+| 🎋 Sugarcane | ✅ |
+| 🍃 Tea | ✅ |
+| 🌾 Wheat | ✅ |
 
 ---
 
-## 🧠 Model Architecture
+# 🧠 Deep Learning Model
 
-- Transfer Learning using VGG16
+- Transfer Learning
+- VGG16
 - PyTorch
-- Image Size: 224 × 224
-- Data Augmentation
-- Dropout Regularization
+- Torchvision
+- Image Size: **224 × 224**
 - Grad-CAM Explainability
 
 ---
 
-## 🛠️ Technology Stack
+# 🛠️ Technology Stack
 
-| Category | Technologies |
-|----------|--------------|
-| Language | Python |
-| Deep Learning | PyTorch, Torchvision |
+| Category | Technology |
+|----------|------------|
+| Programming Language | Python |
+| Deep Learning | PyTorch |
+| Transfer Learning | VGG16 |
 | GUI | PyQt5 |
 | Computer Vision | OpenCV |
 | Image Processing | Pillow |
-| Data Analysis | NumPy, Pandas |
-| Visualization | Matplotlib, Seaborn |
+| Numerical Computing | NumPy |
+| Data Analysis | Pandas |
 | Evaluation | Scikit-learn |
+| Visualization | Matplotlib, Seaborn |
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 Crop-Disease-Prediction-System
@@ -74,36 +85,62 @@ Crop-Disease-Prediction-System
 ├── screenshots
 ├── docs
 ├── demo
-├── requirements.txt
+├── saved_models
 ├── dataset_links.md
-└── README.md
+└── requirements.txt
 ```
 
 ---
 
-## 🚀 Installation
+# 📸 Application Screenshots
 
-Clone the repository.
+> Screenshots will be added soon.
+
+| Home | Prediction |
+|------|------------|
+| screenshots/home.png | screenshots/prediction.png |
+
+| Grad-CAM | Splash Screen |
+|-----------|--------------|
+| screenshots/gradcam.png | screenshots/splash.png |
+
+---
+
+# 🎥 Demo
+
+A complete demonstration video will be added soon.
+
+---
+
+# 📊 Model Performance
+
+| Crop | Model |
+|------|-------|
+| Corn | VGG16 |
+| Cotton | VGG16 |
+| Potato | VGG16 |
+| Rice | VGG16 |
+| Sugarcane | VGG16 |
+| Tea | VGG16 |
+| Wheat | VGG16 |
+
+---
+
+# 🚀 Installation
+
+Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Crop-Disease-Prediction-System.git
+git clone https://github.com/abhay-baliyan/Crop-Disease-Prediction-System.git
 ```
 
-Navigate to the project directory.
-
-```bash
-cd Crop-Disease-Prediction-System
-```
-
-Install the required packages.
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## ▶️ Run the Application
+Run the application
 
 ```bash
 python ui/app.py
@@ -111,11 +148,11 @@ python ui/app.py
 
 ---
 
-## 📊 Datasets
+# 📁 Datasets
 
-The datasets are **not included** in this repository due to their size.
+Datasets are not included because of their size.
 
-Dataset download links are available in:
+All download links are available in:
 
 ```
 dataset_links.md
@@ -123,57 +160,33 @@ dataset_links.md
 
 ---
 
-## 🧩 Model Files
+# 🤖 Pre-trained Models
 
-Pre-trained model weights (`.pth`) are **not included** in this repository.
+The repository contains trained model weights for all supported crops.
 
-Place the downloaded model files inside:
-
-```text
-saved_models/
-```
-
-before running the application.
+No additional training is required to use the application.
 
 ---
 
-## 📸 Screenshots
+# 🚀 Future Improvements
 
-Screenshots will be added here.
-
-- Home Screen
-- Upload Image
-- Prediction
-- Grad-CAM Visualization
-- Splash Screen
-
----
-
-## 🎥 Demo
-
-A demonstration video of the application will be added here.
+- Web Version
+- Mobile Application
+- More Crop Support
+- Cloud Deployment
+- Faster Models
+- Real-time Camera Prediction
 
 ---
 
-## 📈 Future Improvements
+# 👨‍💻 Author
 
-- Additional crop support
-- Mobile application
-- Cloud deployment
-- Real-time camera prediction
-- Web-based interface
-- Model optimization for faster inference
-
----
-
-## 👨‍💻 Author
-
-**Abhay**
+**Abhay Baliyan**
 
 B.Tech Computer Science Engineering
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
