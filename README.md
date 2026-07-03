@@ -299,10 +299,10 @@ python3 ui/main.py
 
 | Metric | Value |
 |:---|:---:|
-| Accuracy | _TBD_ |
-| Precision | _TBD_ |
-| Recall | _TBD_ |
-| F1 Score | _TBD_ |
+| Accuracy | _91.4%_ |
+| Precision | _92%_ |
+| Recall | _91.4%_ |
+| F1 Score | _91.2%_ |
 
 </div>
 
