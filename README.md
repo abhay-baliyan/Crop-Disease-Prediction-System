@@ -1,6 +1,7 @@
 <p align="center">
   <img src="docs/banner.png" alt="Crop Disease Prediction System Banner" width="100%">
 </p>
+
 # 🌿 Crop Disease Prediction System
 
 <p align="center">
